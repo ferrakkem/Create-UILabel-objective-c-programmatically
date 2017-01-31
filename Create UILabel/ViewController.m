@@ -17,7 +17,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    NSLog(@"Hi Ferrakkem");
     
 #pragma mark:: call_UILabel
     [self createUILabel];
@@ -33,6 +32,7 @@
     myLabel.numberOfLines = 0;
     myLabel.lineBreakMode = UILineBreakModeWordWrap;
     myLabel.text = @"Submit";
+    
 #pragma mark :: set_UILabel_borderWidth_Border_color_cornerRadious
     myLabel.layer.borderWidth = 1.0;
     myLabel.layer.borderColor = [UIColor darkGrayColor].CGColor;
