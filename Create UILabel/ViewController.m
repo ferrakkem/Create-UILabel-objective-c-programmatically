@@ -30,7 +30,7 @@
     myLabel.textAlignment = NSTextAlignmentCenter;
     myLabel.textColor = [UIColor blueColor];
     myLabel.numberOfLines = 0;
-    myLabel.lineBreakMode = UILineBreakModeWordWrap;
+    [myLabel setLineBreakMode :NSLineBreakByTruncatingTail];
     myLabel.text = @"Submit";
     
 #pragma mark :: set_UILabel_borderWidth_Border_color_cornerRadious
